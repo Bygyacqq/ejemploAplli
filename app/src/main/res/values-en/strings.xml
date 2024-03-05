@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">ejemploAplli</string>
-    <string name="Saludo">Welcome, this is my firsy app.</string>
+    <string name="bienvendos_esta_es_mi_primera_app">Welcome, this is my first app.</string>
 </resources>
