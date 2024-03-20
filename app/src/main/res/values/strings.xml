@@ -7,6 +7,14 @@
         <item>Habitación doble</item>
         <item>Suite</item>
         <item>Apartaestudio</item>
-
+    </string-array>
+    <string-array name="op_tions_z_humedas">
+        <item>Piscina Adulta</item>
+        <item>Piscina menores</item>
+        <item>Saunas</item>
+        <item>Spas</item>
+        <item>Jardines acuáticos</item>
+        <item>Jacuzzis</item>
+        <item>Recreación acuática</item>
     </string-array>
 </resources>
