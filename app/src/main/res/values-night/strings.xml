@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="bienvendos_esta_es_mi_primera_app">Bienvendos, esta es mi primera app.</string>
+    <string name="welcome_message">Bienvenid@s</string>
 </resources>

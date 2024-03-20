@@ -2,4 +2,5 @@
 <resources>
     <string name="app_name">ejemploAplli</string>
     <string name="bienvendos_esta_es_mi_primera_app">Bienvendos, esta es mi primera app.</string>
+    <string name="welcome_message">Bienvenid@s</string>
 </resources>

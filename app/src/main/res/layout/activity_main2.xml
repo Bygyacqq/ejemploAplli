@@ -4,6 +4,76 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/jellyfish"
     tools:context=".MainActivity2">
 
+    <TextView
+        android:id="@+id/Bienvenida"
+        style="@android:style/Widget.Material.Light.TextView"
+        android:layout_width="344dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="620dp"
+        android:accessibilityHeading="false"
+        android:background="@drawable/wallpaperblue"
+        android:backgroundTint="#006676CF"
+        android:backgroundTintMode="add"
+        android:drawableBottom="@drawable/background_metallic"
+        android:fontFamily="monospace"
+        android:forceDarkAllowed="false"
+        android:freezesText="false"
+        android:gravity="center"
+        android:text="Bienvenid@s"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#C1ADE3"
+        android:textEditNoPasteWindowLayout="?android:attr/textEditPasteWindowLayout"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/reservazhumeda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="340dp"
+        android:backgroundTint="#75000000"
+        android:text="Reservar zona humeda."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"/>
+
+    <Button
+        android:id="@+id/reservaHabitacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="452dp"
+        android:backgroundTint="#7E000000"
+        android:text="Reservar Habitación."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"/>
+
+    <TextView
+        android:id="@+id/options"
+        style="@style/Widget.Material3.MaterialTimePicker.Display.HelperText"
+        android:layout_width="344dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="140dp"
+        android:background="#BF000000"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="Por favor elige una opción."
+        android:textAlignment="center"
+        android:textColor="#C1ADE3"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
