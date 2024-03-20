@@ -22,4 +22,22 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.024" />
 
+    <Button
+        android:id="@+id/botonComencemos"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="277dp"
+        android:layout_height="69dp"
+        android:backgroundTint="@color/colorboton"
+        android:backgroundTintMode="add"
+        android:gravity="center"
+        android:text="¡Comencemos!"
+        android:textColor="#F5F5DC"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
