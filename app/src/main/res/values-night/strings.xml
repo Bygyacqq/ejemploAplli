@@ -2,4 +2,10 @@
 <resources>
     <string name="bienvendos_esta_es_mi_primera_app">Bienvendos, esta es mi primera app.</string>
     <string name="welcome_message">Bienvenid@s</string>
+    <string-array name="tipo_de_Habitaciones">
+        <item>Habitación individual</item>
+        <item>Habitación doble</item>
+        <item>Suite</item>
+        <item>Apartaestudio</item>
+    </string-array>
 </resources>

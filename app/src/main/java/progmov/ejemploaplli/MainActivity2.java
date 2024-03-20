@@ -5,8 +5,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.app.DatePickerDialog;
+import android.app.TimePickerDialog;
+import android.widget.DatePicker;
+import android.widget.TimePicker;
+import android.widget.Toast;
+import java.util.Calendar;
 public class MainActivity2 extends AppCompatActivity {
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,6 +31,5 @@ public class MainActivity2 extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity2.this, Zonahumeda.class);
                 startActivity(intent);
             }
-        });
-    }
+        });    }
 }
